@@ -1,221 +1,199 @@
-<html>
-<head>
-<title>index.html</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<style type="text/css">
-.s0 { color: #d5b778;}
-.s1 { color: #bcbec4;}
-.s2 { color: #bababa;}
-.s3 { color: #6aab73;}
-.s4 { color: #7a7e85;}
-.s5 { color: #56a8f5;}
-</style>
-</head>
-<body bgcolor="#1e1f22">
-<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
-<tr><td><center>
-<font face="Arial, Helvetica" color="#000000">
-index.html</font>
-</center></td></tr></table>
-<pre><span class="s0">&lt;!DOCTYPE </span><span class="s2">html</span><span class="s0">&gt;</span>
-<span class="s0">&lt;html </span><span class="s2">lang</span><span class="s3">=&quot;en&quot;</span><span class="s0">&gt;</span>
-  <span class="s0">&lt;head&gt;</span>
-    <span class="s0">&lt;meta </span><span class="s2">charset</span><span class="s3">=&quot;UTF-8&quot; </span><span class="s0">/&gt;</span>
-    <span class="s0">&lt;meta </span><span class="s2">name</span><span class="s3">=&quot;viewport&quot; </span><span class="s2">content</span><span class="s3">=&quot;width=device-width, initial-scale=1.0&quot; </span><span class="s0">/&gt;</span>
-    <span class="s0">&lt;title&gt;</span><span class="s1">Git &amp; GitHub - CS2031 Team</span><span class="s0">&lt;/title&gt;</span>
-    <span class="s0">&lt;link </span><span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot; </span><span class="s2">href</span><span class="s3">=&quot;index.css&quot; </span><span class="s0">/&gt;</span>
-    <span class="s0">&lt;link</span>
-      <span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot;</span>
-      <span class="s2">href</span><span class="s3">=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css&quot;</span>
-    <span class="s0">/&gt;</span>
-  <span class="s0">&lt;/head&gt;</span>
-  <span class="s0">&lt;body&gt;</span>
-    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;page&quot;</span><span class="s0">&gt;</span>
-      <span class="s0">&lt;header </span><span class="s2">class</span><span class="s3">=&quot;header&quot;</span><span class="s0">&gt;</span>
-        <span class="s0">&lt;nav </span><span class="s2">class</span><span class="s3">=&quot;nav&quot;</span><span class="s0">&gt;</span>
-          <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;nav__container&quot;</span><span class="s0">&gt;</span>
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;nav__brand&quot;</span><span class="s0">&gt;</span>
-              <span class="s0">&lt;span </span><span class="s2">class</span><span class="s3">=&quot;nav__logo&quot;</span><span class="s0">&gt;</span><span class="s1">CS2031</span><span class="s0">&lt;/span&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Git & GitHub - CS2031 Team</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <div class="nav__container">
+            <div class="nav__brand">
+              <span class="nav__logo">CS2031</span>
+            </div>
 
-            <span class="s4">&lt;!-- Hidden checkbox for mobile menu toggle --&gt;</span>
-            <span class="s0">&lt;input </span><span class="s2">type</span><span class="s3">=&quot;checkbox&quot; </span><span class="s2">id</span><span class="s3">=&quot;nav-toggle&quot; </span><span class="s2">class</span><span class="s3">=&quot;nav__checkbox&quot; </span><span class="s0">/&gt;</span>
-            <span class="s0">&lt;label </span><span class="s2">for</span><span class="s3">=&quot;nav-toggle&quot; </span><span class="s2">class</span><span class="s3">=&quot;nav__toggle&quot;</span><span class="s0">&gt;</span>
-              <span class="s0">&lt;span </span><span class="s2">class</span><span class="s3">=&quot;nav__toggle-line nav__toggle-line--top&quot;</span><span class="s0">&gt;&lt;/span&gt;</span>
-              <span class="s0">&lt;span </span><span class="s2">class</span><span class="s3">=&quot;nav__toggle-line nav__toggle-line--middle&quot;</span><span class="s0">&gt;&lt;/span&gt;</span>
-              <span class="s0">&lt;span </span><span class="s2">class</span><span class="s3">=&quot;nav__toggle-line nav__toggle-line--bottom&quot;</span><span class="s0">&gt;&lt;/span&gt;</span>
-            <span class="s0">&lt;/label&gt;</span>
+            <!-- Hidden checkbox for mobile menu toggle -->
+            <input type="checkbox" id="nav-toggle" class="nav__checkbox" />
+            <label for="nav-toggle" class="nav__toggle">
+              <span class="nav__toggle-line nav__toggle-line--top"></span>
+              <span class="nav__toggle-line nav__toggle-line--middle"></span>
+              <span class="nav__toggle-line nav__toggle-line--bottom"></span>
+            </label>
 
-            <span class="s0">&lt;ul </span><span class="s2">class</span><span class="s3">=&quot;nav__list&quot;</span><span class="s0">&gt;</span>
-              <span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;nav__item&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;#hero&quot; </span><span class="s2">class</span><span class="s3">=&quot;nav__link&quot;</span><span class="s0">&gt;</span><span class="s1">Home</span><span class="s0">&lt;/a&gt;</span>
-              <span class="s0">&lt;/li&gt;</span>
-              <span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;nav__item&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;#home&quot; </span><span class="s2">class</span><span class="s3">=&quot;nav__link&quot;</span><span class="s0">&gt;</span><span class="s1">About</span><span class="s0">&lt;/a&gt;</span>
-              <span class="s0">&lt;/li&gt;</span>
-              <span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;nav__item&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;#integrantes&quot; </span><span class="s2">class</span><span class="s3">=&quot;nav__link&quot;</span><span class="s0">&gt;</span><span class="s1">Team</span><span class="s0">&lt;/a&gt;</span>
-              <span class="s0">&lt;/li&gt;</span>
-            <span class="s0">&lt;/ul&gt;</span>
-          <span class="s0">&lt;/div&gt;</span>
-        <span class="s0">&lt;/nav&gt;</span>
-      <span class="s0">&lt;/header&gt;</span>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#hero" class="nav__link">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="#home" class="nav__link">About</a>
+              </li>
+              <li class="nav__item">
+                <a href="#integrantes" class="nav__link">Team</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
 
-      <span class="s0">&lt;main </span><span class="s2">class</span><span class="s3">=&quot;main&quot;</span><span class="s0">&gt;</span>
-        <span class="s0">&lt;section </span><span class="s2">id</span><span class="s3">=&quot;hero&quot; </span><span class="s2">class</span><span class="s3">=&quot;hero&quot;</span><span class="s0">&gt;</span>
-          <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;hero__container&quot;</span><span class="s0">&gt;</span>
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;hero__content&quot;</span><span class="s0">&gt;</span>
-              <span class="s0">&lt;h1 </span><span class="s2">class</span><span class="s3">=&quot;hero__title&quot;</span><span class="s0">&gt;</span><span class="s1">Welcome to Git &amp; GitHub</span><span class="s0">&lt;/h1&gt;</span>
-              <span class="s0">&lt;p </span><span class="s2">class</span><span class="s3">=&quot;hero__subtitle&quot;</span><span class="s0">&gt;</span>
-                <span class="s1">Discover the power of version control and collaboration</span>
-              <span class="s0">&lt;/p&gt;</span>
-              <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;hero__actions&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;#home&quot; </span><span class="s2">class</span><span class="s3">=&quot;hero__button hero__button--primary&quot;</span>
-                  <span class="s0">&gt;</span><span class="s1">Learn More</span><span class="s0">&lt;/a</span>
-                <span class="s0">&gt;</span>
-                <span class="s0">&lt;a</span>
-                  <span class="s2">href</span><span class="s3">=&quot;#integrantes&quot;</span>
-                  <span class="s2">class</span><span class="s3">=&quot;hero__button hero__button--secondary&quot;</span>
-                  <span class="s0">&gt;</span><span class="s1">Meet the Team</span><span class="s0">&lt;/a</span>
-                <span class="s0">&gt;</span>
-              <span class="s0">&lt;/div&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;hero__visual&quot;</span><span class="s0">&gt;</span>
-              <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;hero__icon&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;i </span><span class="s2">class</span><span class="s3">=&quot;fab fa-git-alt&quot;</span><span class="s0">&gt;&lt;/i&gt;</span>
-              <span class="s0">&lt;/div&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
-          <span class="s0">&lt;/div&gt;</span>
-        <span class="s0">&lt;/section&gt;</span>
+      <main class="main">
+        <section id="hero" class="hero">
+          <div class="hero__container">
+            <div class="hero__content">
+              <h1 class="hero__title">Welcome to Git & GitHub</h1>
+              <p class="hero__subtitle">
+                Discover the power of version control and collaboration
+              </p>
+              <div class="hero__actions">
+                <a href="#home" class="hero__button hero__button--primary"
+                  >Learn More</a
+                >
+                <a
+                  href="#integrantes"
+                  class="hero__button hero__button--secondary"
+                  >Meet the Team</a
+                >
+              </div>
+            </div>
+            <div class="hero__visual">
+              <div class="hero__icon">
+                <i class="fab fa-git-alt"></i>
+              </div>
+            </div>
+          </div>
+        </section>
 
-        <span class="s0">&lt;section </span><span class="s2">id</span><span class="s3">=&quot;home&quot; </span><span class="s2">class</span><span class="s3">=&quot;home&quot;</span><span class="s0">&gt;</span>
-          <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;home__container&quot;</span><span class="s0">&gt;</span>
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;home__header&quot;</span><span class="s0">&gt;</span>
-              <span class="s0">&lt;h2 </span><span class="s2">class</span><span class="s3">=&quot;home__title&quot;</span><span class="s0">&gt;</span><span class="s1">About Git &amp; GitHub</span><span class="s0">&lt;/h2&gt;</span>
-              <span class="s0">&lt;p </span><span class="s2">class</span><span class="s3">=&quot;home__description&quot;</span><span class="s0">&gt;</span>
-                <span class="s1">Understanding version control and collaborative development</span>
-              <span class="s0">&lt;/p&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
+        <section id="home" class="home">
+          <div class="home__container">
+            <div class="home__header">
+              <h2 class="home__title">About Git & GitHub</h2>
+              <p class="home__description">
+                Understanding version control and collaborative development
+              </p>
+            </div>
 
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;home__content&quot;</span><span class="s0">&gt;</span>
-              <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;home__card&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;home__card-icon&quot;</span><span class="s0">&gt;</span>
-                  <span class="s0">&lt;i </span><span class="s2">class</span><span class="s3">=&quot;fab fa-git-alt&quot;</span><span class="s0">&gt;&lt;/i&gt;</span>
-                <span class="s0">&lt;/div&gt;</span>
-                <span class="s0">&lt;h3 </span><span class="s2">class</span><span class="s3">=&quot;home__card-title&quot;</span><span class="s0">&gt;</span><span class="s1">What is Git?</span><span class="s0">&lt;/h3&gt;</span>
-                <span class="s0">&lt;p </span><span class="s2">class</span><span class="s3">=&quot;home__card-text&quot;</span><span class="s0">&gt;</span>
-                  <span class="s1">Git is a distributed version control system that tracks</span>
-                  <span class="s1">changes in source code during software development. It allows</span>
-                  <span class="s1">multiple developers to work on the same project simultaneously</span>
-                  <span class="s1">while keeping track of all changes.</span>
-                <span class="s0">&lt;/p&gt;</span>
-              <span class="s0">&lt;/div&gt;</span>
+            <div class="home__content">
+              <div class="home__card">
+                <div class="home__card-icon">
+                  <i class="fab fa-git-alt"></i>
+                </div>
+                <h3 class="home__card-title">What is Git?</h3>
+                <p class="home__card-text">
+                  Git is a distributed version control system that tracks
+                  changes in source code during software development. It allows
+                  multiple developers to work on the same project simultaneously
+                  while keeping track of all changes.
+                </p>
+              </div>
 
-              <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;home__card&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;home__card-icon&quot;</span><span class="s0">&gt;</span>
-                  <span class="s0">&lt;i </span><span class="s2">class</span><span class="s3">=&quot;fab fa-github&quot;</span><span class="s0">&gt;&lt;/i&gt;</span>
-                <span class="s0">&lt;/div&gt;</span>
-                <span class="s0">&lt;h3 </span><span class="s2">class</span><span class="s3">=&quot;home__card-title&quot;</span><span class="s0">&gt;</span><span class="s1">What is GitHub?</span><span class="s0">&lt;/h3&gt;</span>
-                <span class="s0">&lt;p </span><span class="s2">class</span><span class="s3">=&quot;home__card-text&quot;</span><span class="s0">&gt;</span>
-                  <span class="s1">GitHub is a cloud-based hosting service that lets you manage</span>
-                  <span class="s1">Git repositories. It provides a web-based interface and</span>
-                  <span class="s1">additional features like issue tracking, project management,</span>
-                  <span class="s1">and collaboration tools.</span>
-                <span class="s0">&lt;/p&gt;</span>
-              <span class="s0">&lt;/div&gt;</span>
+              <div class="home__card">
+                <div class="home__card-icon">
+                  <i class="fab fa-github"></i>
+                </div>
+                <h3 class="home__card-title">What is GitHub?</h3>
+                <p class="home__card-text">
+                  GitHub is a cloud-based hosting service that lets you manage
+                  Git repositories. It provides a web-based interface and
+                  additional features like issue tracking, project management,
+                  and collaboration tools.
+                </p>
+              </div>
 
-              <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;home__card&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;home__card-icon&quot;</span><span class="s0">&gt;</span>
-                  <span class="s0">&lt;i </span><span class="s2">class</span><span class="s3">=&quot;fas fa-users&quot;</span><span class="s0">&gt;&lt;/i&gt;</span>
-                <span class="s0">&lt;/div&gt;</span>
-                <span class="s0">&lt;h3 </span><span class="s2">class</span><span class="s3">=&quot;home__card-title&quot;</span><span class="s0">&gt;</span><span class="s1">Why Use Them?</span><span class="s0">&lt;/h3&gt;</span>
-                <span class="s0">&lt;p </span><span class="s2">class</span><span class="s3">=&quot;home__card-text&quot;</span><span class="s0">&gt;</span>
-                  <span class="s1">Together, Git and GitHub enable seamless collaboration, code</span>
-                  <span class="s1">backup, version history, and project management for developers</span>
-                  <span class="s1">and teams worldwide. They're essential tools in modern</span>
-                  <span class="s1">software development.</span>
-                <span class="s0">&lt;/p&gt;</span>
-              <span class="s0">&lt;/div&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
-          <span class="s0">&lt;/div&gt;</span>
-        <span class="s0">&lt;/section&gt;</span>
+              <div class="home__card">
+                <div class="home__card-icon">
+                  <i class="fas fa-users"></i>
+                </div>
+                <h3 class="home__card-title">Why Use Them?</h3>
+                <p class="home__card-text">
+                  Together, Git and GitHub enable seamless collaboration, code
+                  backup, version history, and project management for developers
+                  and teams worldwide. They're essential tools in modern
+                  software development.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
-        <span class="s0">&lt;section </span><span class="s2">id</span><span class="s3">=&quot;team&quot; </span><span class="s2">class</span><span class="s3">=&quot;team&quot;</span><span class="s0">&gt;</span>
-          <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;team__container&quot;</span><span class="s0">&gt;</span>
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;team__header&quot;</span><span class="s0">&gt;</span>
-              <span class="s0">&lt;h2 </span><span class="s2">class</span><span class="s3">=&quot;team__title&quot;</span><span class="s0">&gt;</span><span class="s1">Meet Our Team</span><span class="s0">&lt;/h2&gt;</span>
-              <span class="s0">&lt;p </span><span class="s2">class</span><span class="s3">=&quot;team__description&quot;</span><span class="s0">&gt;</span>
-                <span class="s1">The amazing people behind this project</span>
-              <span class="s0">&lt;/p&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
+        <section id="team" class="team">
+          <div class="team__container">
+            <div class="team__header">
+              <h2 class="team__title">Meet Our Team</h2>
+              <p class="team__description">
+                The amazing people behind this project
+              </p>
+            </div>
 
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;team__grid&quot;</span><span class="s0">&gt;</span>
-              <span class="s4">&lt;!-- Aquí reemplazar con tus datos personales --&gt;</span>
-              <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;team-card&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;team-card__image&quot;</span><span class="s0">&gt;</span>
-                  <span class="s4">&lt;!-- Aquí tu foto de perfil (puedes usar una URL de tu GitHub o cualquier imagen) --&gt;</span>
-                  <span class="s0">&lt;img</span>
-                    <span class="s2">src</span><span class="s3">=&quot;https://avatars.githubusercontent.com/u/228248650?s=400&amp;v=4&quot;</span>
-                    <span class="s2">alt</span><span class="s3">=&quot;Isabella&quot;</span>
-                    <span class="s2">class</span><span class="s3">=&quot;team-card__photo&quot;</span>
-                  <span class="s0">/&gt;</span>
-                <span class="s0">&lt;/div&gt;</span>
-                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;team-card__content&quot;</span><span class="s0">&gt;</span>
-                  <span class="s4">&lt;!-- Aquí tu nombre completo --&gt;</span>
-                  <span class="s0">&lt;h3 </span><span class="s2">class</span><span class="s3">=&quot;team-card__name&quot;</span><span class="s0">&gt;</span><span class="s1">Isabella María Castillo Braschi</span><span class="s0">&lt;/h3&gt;</span>
-                  <span class="s4">&lt;!-- Aquí tu especialidad o rol (ej: Frontend Developer, Backend Developer, etc.) --&gt;</span>
-                  <span class="s0">&lt;p </span><span class="s2">class</span><span class="s3">=&quot;team-card__role&quot;</span><span class="s0">&gt;</span><span class="s1">Organizadora</span><span class="s0">&lt;/p&gt;</span>
-                  <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;team-card__social&quot;</span><span class="s0">&gt;</span>
-                    <span class="s4">&lt;!-- Aquí tu link de GitHub (reemplaza el # con tu URL) --&gt;</span>
-                    <span class="s0">&lt;a</span>
-                      <span class="s2">href</span><span class="s3">=&quot;git@github.com:RafaCH1906/hackthon.git&quot;</span>
-                      <span class="s2">class</span><span class="s3">=&quot;team-card__social-link team-card__social-link--github&quot;</span>
-                    <span class="s0">&gt;</span>
-                      <span class="s0">&lt;i </span><span class="s2">class</span><span class="s3">=&quot;fab fa-github&quot;</span><span class="s0">&gt;&lt;/i&gt;</span>
-                    <span class="s0">&lt;/a&gt;</span>
-                    <span class="s4">&lt;!-- Aquí tu link de LinkedIn (reemplaza el # con tu URL) --&gt;</span>
-                    <span class="s0">&lt;a</span>
-                      <span class="s2">href</span><span class="s3">=&quot;https://www.linkedin.com/in/isabella-castillo-braschi-565305335/&quot;</span>
-                      <span class="s2">class</span><span class="s3">=&quot;team-card__social-link team-card__social-link--linkedin&quot;</span>
-                    <span class="s0">&gt;</span>
-                      <span class="s0">&lt;i </span><span class="s2">class</span><span class="s3">=&quot;fab fa-linkedin&quot;</span><span class="s0">&gt;&lt;/i&gt;</span>
-                    <span class="s0">&lt;/a&gt;</span>
-                  <span class="s0">&lt;/div&gt;</span>
-                <span class="s0">&lt;/div&gt;</span>
-              <span class="s0">&lt;/div&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
-          <span class="s0">&lt;/div&gt;</span>
-        <span class="s0">&lt;/section&gt;</span>
-      <span class="s0">&lt;/main&gt;</span>
+            <div class="team__grid">
+              <!-- Aquí reemplazar con tus datos personales -->
+              <div class="team-card">
+                <div class="team-card__image">
+                  <!-- Aquí tu foto de perfil (puedes usar una URL de tu GitHub o cualquier imagen) -->
+                  <img
+                    src="https://avatars.githubusercontent.com/u/228248650?s=400&v=4"
+                    alt="Isabella"
+                    class="team-card__photo"
+                  />
+                </div>
+                <div class="team-card__content">
+                  <!-- Aquí tu nombre completo -->
+                  <h3 class="team-card__name">Isabella María Castillo Braschi</h3>
+                  <!-- Aquí tu especialidad o rol (ej: Frontend Developer, Backend Developer, etc.) -->
+                  <p class="team-card__role">Organizadora</p>
+                  <div class="team-card__social">
+                    <!-- Aquí tu link de GitHub (reemplaza el # con tu URL) -->
+                    <a
+                      href="git@github.com:RafaCH1906/hackthon.git"
+                      class="team-card__social-link team-card__social-link--github"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <!-- Aquí tu link de LinkedIn (reemplaza el # con tu URL) -->
+                    <a
+                      href="https://www.linkedin.com/in/isabella-castillo-braschi-565305335/"
+                      class="team-card__social-link team-card__social-link--linkedin"
+                    >
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
 
-      <span class="s0">&lt;footer </span><span class="s2">class</span><span class="s3">=&quot;footer&quot;</span><span class="s0">&gt;</span>
-        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;footer__container&quot;</span><span class="s0">&gt;</span>
-          <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;footer__content&quot;</span><span class="s0">&gt;</span>
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;footer__brand&quot;</span><span class="s0">&gt;</span>
-              <span class="s0">&lt;span </span><span class="s2">class</span><span class="s3">=&quot;footer__logo&quot;</span><span class="s0">&gt;</span><span class="s1">CS2031</span><span class="s0">&lt;/span&gt;</span>
-              <span class="s0">&lt;p </span><span class="s2">class</span><span class="s3">=&quot;footer__tagline&quot;</span><span class="s0">&gt;</span><span class="s1">Learning Git &amp; GitHub together</span><span class="s0">&lt;/p&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;footer__links&quot;</span><span class="s0">&gt;</span>
-              <span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;https://github.com&quot; </span><span class="s2">class</span><span class="s3">=&quot;footer__link&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;i </span><span class="s2">class</span><span class="s3">=&quot;fab fa-github&quot;</span><span class="s0">&gt;&lt;/i&gt;</span>
-                <span class="s1">GitHub</span>
-              <span class="s0">&lt;/a&gt;</span>
-              <span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;https://git-scm.com&quot; </span><span class="s2">class</span><span class="s3">=&quot;footer__link&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;i </span><span class="s2">class</span><span class="s3">=&quot;fab fa-git-alt&quot;</span><span class="s0">&gt;&lt;/i&gt;</span>
-                <span class="s1">Git</span>
-              <span class="s0">&lt;/a&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
-          <span class="s0">&lt;/div&gt;</span>
-          <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;footer__bottom&quot;</span><span class="s0">&gt;</span>
-            <span class="s0">&lt;p </span><span class="s2">class</span><span class="s3">=&quot;footer__copyright&quot;</span><span class="s0">&gt;</span>
-              <span class="s5">&amp;copy; </span><span class="s1">2025 CS2031 Team. All rights reserved.</span>
-            <span class="s0">&lt;/p&gt;</span>
-          <span class="s0">&lt;/div&gt;</span>
-        <span class="s0">&lt;/div&gt;</span>
-      <span class="s0">&lt;/footer&gt;</span>
-    <span class="s0">&lt;/div&gt;</span>
-  <span class="s0">&lt;/body&gt;</span>
-<span class="s0">&lt;/html&gt;</span>
-</pre>
-</body>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__content">
+            <div class="footer__brand">
+              <span class="footer__logo">CS2031</span>
+              <p class="footer__tagline">Learning Git & GitHub together</p>
+            </div>
+            <div class="footer__links">
+              <a href="https://github.com" class="footer__link">
+                <i class="fab fa-github"></i>
+                GitHub
+              </a>
+              <a href="https://git-scm.com" class="footer__link">
+                <i class="fab fa-git-alt"></i>
+                Git
+              </a>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <p class="footer__copyright">
+              &copy; 2025 CS2031 Team. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
